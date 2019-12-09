@@ -18,24 +18,30 @@ const otherFontTheme = {
 const startData = [
     {
         id: "1",
-        message: "What number bo bumber am I thinking (Default steps example)?",
+        message:
+            "Hi! I'm Stronger Assistant and I'm here to make you feel stronger than you felt yesterday :D",
         trigger: "2",
     },
     {
         id: "2",
-        options: [
-            { value: 1, label: "Number 1", trigger: "4" },
-            { value: 2, label: "Number 2", trigger: "3" },
-            { value: 3, label: "Number 3", trigger: "3" },
-        ],
+        message:
+            "I see you haven't setup a workout regime. We can get nitty gritty or just start with something simple. Thoughts?",
+        trigger: "3",
     },
     {
         id: "3",
+        options: [
+            { value: 1, label: "Simple, I want to workout now", trigger: "4" },
+            { value: 2, label: "Let's get into it", trigger: "3" },
+        ],
+    },
+    {
+        id: "4",
         message: "Wrong answer, try again.",
         trigger: "2",
     },
     {
-        id: "4",
+        id: "5",
         message: "Awesome! You are a telepath!",
         end: true,
     },
