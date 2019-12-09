@@ -20,6 +20,8 @@
 		"@framer/kasimir.iphone-x-kit": "^1.21.0",
 		"@framer/rmaroun.react-simple-chatbot": "^1.13.0",
 		"@framer/rrbarry11.chatterbot-kit": "^1.7.0",
-		"react-simple-chatbot": "^0.6.1"
+		"react-simple-chatbot": "^0.6.1",
+		"react-simple-chatbot-for-framer-x": "^0.4.2",
+		"styled-components": "^4.4.1"
 	}
 }
