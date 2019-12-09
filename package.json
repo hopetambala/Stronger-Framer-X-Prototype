@@ -1,0 +1,24 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "b343f091-2f55-42aa-b198-297357dde58d"
+	},
+	"author": "Hope Tambala",
+	"dependencies": {
+		"@framer/benjamin.icon-generator": "^1.20.0",
+		"@framer/edoardo.ios-kit": "^1.6.0",
+		"@framer/framer.base": "^1.0.0",
+		"@framer/framer.examples": "^1.7.0",
+		"@framer/kasimir.iphone-x-kit": "^1.21.0",
+		"@framer/rmaroun.react-simple-chatbot": "^1.13.0",
+		"@framer/rrbarry11.chatterbot-kit": "^1.7.0"
+	}
+}
