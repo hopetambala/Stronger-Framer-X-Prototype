@@ -4,13 +4,13 @@ import ChatBot from "react-simple-chatbot-for-framer-x"
 
 const otherFontTheme = {
     background: "#f5f8fb",
-    fontFamily: "Helvetica Neue",
-    headerBgColor: "#6e48aa",
+    fontFamily: "Roboto Black",
+    headerBgColor: "#8AD966",
     headerFontColor: "#fff",
     headerFontSize: "16px",
-    botBubbleColor: "#6E48AA",
+    botBubbleColor: "#8AD966",
     botFontColor: "#fff",
-    userBubbleColor: "#fff",
+    userBubbleColor: "#BFF29B",
     userFontColor: "#4a4a4a",
 }
 
@@ -37,12 +37,14 @@ const startData = [
     },
     {
         id: "4",
-        message: "Wrong answer, try again.",
-        trigger: "2",
+        message:
+            "No problem. Let's get a workout started for you right away then",
+        trigger: "5",
     },
     {
         id: "5",
-        message: "Awesome! You are a telepath!",
+        message:
+            "Looking at your *calendar* and *where you'll be*, what do you think about this workout schedule",
         end: true,
     },
 ]
