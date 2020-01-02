@@ -32,7 +32,7 @@ const startData = [
         id: "3",
         options: [
             { value: 1, label: "Simple, I want to workout now", trigger: "4" },
-            { value: 2, label: "Let's get into it", trigger: "3" },
+            { value: 2, label: "Let's get into it", trigger: "6" },
         ],
     },
     {
@@ -44,7 +44,19 @@ const startData = [
     {
         id: "5",
         message:
-            "Looking at your *calendar* and *where you'll be*, what do you think about this workout schedule",
+            "Looking at your *calendar* and *where you'll be*, I've filled out your workouts! Check them out on the card above.",
+        trigger: "7",
+    },
+    {
+        id: "6",
+        message:
+            "Hmm, seems like I haven't been programmed to do that yet, let's start with simple workouts!",
+        trigger: "5",
+    },
+    {
+        id: "7",
+        message:
+            "You can scroll within cards to get to different days as well! :D ",
         end: true,
     },
 ]
